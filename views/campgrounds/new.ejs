@@ -1,0 +1,55 @@
+<% layout("layout/BoilerPlate") %>
+    <div class="row">
+        <h1 class="text-center">Add new Campground</h1>
+        <div class="col-6 offset-3">
+            <form action="/campgrounds" method="POST" class="validated" novalidate>
+                <div class="col-md-12">
+                    <lable for="title" class="form-label">Campground Title</lable>
+                    <input type="text" class="form-control" id="title" placeholder="title" name="campground[title]"
+                        required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <lable for="location" class="form-label">Location</lable>
+                    <input type="text" id="location" class="form-control" placeholder="location"
+                        name="campground[location]" required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <lable for="image" class="form-label">Image Url</lable>
+                    <input type="text" id="image" class="form-control" placeholder="Image Url" name="campground[image]"
+                        required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div>
+
+                <div class="col-md-12">
+                    <label for="price">Price</label>
+                    <div class="input-group">
+                        <div class="input-group-text">₹</div>
+                        <input type="number" class="form-control" id="price" placeholder="Price"
+                            name="campground[price]" required>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="mb-3">
+                        <label for="description" class="form-label">Description</label>
+                        <textarea class="form-control" id="description" name="campground[description]" rows="3"
+                            placeholder="Write something about campground" required></textarea>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-success">Add Campground</button>
+            </form>
+        </div>
+    </div>

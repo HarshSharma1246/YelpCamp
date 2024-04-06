@@ -1,0 +1,14 @@
+<% layout("/layout/BoilerPlate") %>
+    <div class="row col-6 offset-3">
+        <div class="alert alert-danger " role="alert">
+            <h4 class="alert-heading">Oops error!</h4>
+            <h5>
+                <%= err.message %>
+            </h5>
+            <hr>
+            <p class="mb-0 text-muted">
+                <%= err.stack %>
+            </p>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
