@@ -1,14 +1,14 @@
 {
-  "name": "practice",
+  "name": "yelpcamp",
   "version": "1.0.0",
-  "description": "",
+  "description": "YelpCamp is a dynamic campground search web application designed to help users discover and review campgrounds.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Harsh Sharma",
+  "license": "MIT",
   "dependencies": {
     "ejs": "^3.1.9",
     "ejs-mate": "^4.0.0",
@@ -17,5 +17,14 @@
     "method-override": "^3.0.0",
     "mongoose": "^8.2.0",
     "morgan": "^1.10.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HarshSharma1246/YelpCamp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HarshSharma1246/YelpCamp/issues"
+  },
+  "homepage": "https://github.com/HarshSharma1246/YelpCamp#readme"
 }
