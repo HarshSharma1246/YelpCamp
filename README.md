@@ -5,14 +5,19 @@ YelpCamp is a dynamic campground search web application designed to help users d
 Features:
 
 Campground Listings: Browse through a wide range of campgrounds with detailed information and images.
+
 Review System: Users can leave reviews for campgrounds, providing valuable feedback to the community.
+
 CRUD Operations: Full functionality for creating, updating, and deleting campgrounds and reviews.
+
 Responsive Design: Responsive design ensures a seamless experience across all devices.
 
 Technologies Used:
 
 Frontend: HTML5, CSS3, Bootstrap
-Backend: Node.js, Express.js
+
+Backend: Node.js, Express.js\n
+
 Database: MongoDB
 
 Preview:
