@@ -14,7 +14,7 @@ Technologies Used:
 Frontend: HTML5, CSS3, Bootstrap
 Backend: Node.js, Express.js
 Database: MongoDB
-Authentication: Passport.js
+
 Preview:
 ![image](https://github.com/HarshSharma1246/YelpCamp/assets/142594711/849679cc-eec6-40c5-a14d-68f390445bb4)
 ![image](https://github.com/HarshSharma1246/YelpCamp/assets/142594711/c3f99d12-7a88-45e7-997c-5698ef7e6753)
